@@ -60,7 +60,7 @@ const TimeLeft = ({
   return (
     <div id="time-left">
       {formatDoubleDigits(minutes)}:{formatDoubleDigits(seconds)}
-      <audio id="beep" src="/rocket.wav">
+      <audio id="beep" src="http://www.t2b.org/mp3/Bassinject_rmx_Wash!.mp3">
         Audio
       </audio>
     </div>
