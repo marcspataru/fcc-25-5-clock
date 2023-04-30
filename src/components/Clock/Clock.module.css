@@ -1,0 +1,41 @@
+.labelWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.label {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+  justify-content: space-between;
+}
+
+.controlsWrapper {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+  width: 100px;
+  justify-content: space-between;
+}
+
+.control {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 20px;
+  height: 20px;
+  border: 2px solid black;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.timer {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+}
+
+.clickableText {
+  cursor: pointer;
+}
